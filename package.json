@@ -1,0 +1,36 @@
+{
+  "name": "shelter-animals-db",
+  "version": "0.0.1",
+  "description": "Shelter animals registration system",
+  "author": "Kostiantyn Manko, Dadia Manko, Illia Manko",
+  "private": true,
+  "scripts": {
+    "start": "nodejs ./bin/www"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "~1.0.0",
+    "connect-mongo": "*",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs-locals": "~1.0.2",
+    "express": "~4.0.0",
+    "format-json": "*",
+    "jade": "*",
+    "mongodb": "*",
+    "mongoose": "^4.11.9",
+    "morgan": "~1.0.0",
+    "nconf": "*",
+    "node-uuid": "*",
+    "querystringify": "*",
+    "request": "*",
+    "static-favicon": "~1.0.0",
+    "string": "~1.7.0",
+    "validator": "~2.0.0",
+    "winston": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
